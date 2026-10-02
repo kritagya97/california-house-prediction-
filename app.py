@@ -168,3 +168,5 @@ if st.session_state.prediction is not None:
         f"Predicted House Price: "
         f"${st.session_state.prediction:,.2f}"
     )
+
+st.write("Developed by Kritagya Ghimire")
